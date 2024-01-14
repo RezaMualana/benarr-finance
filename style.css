@@ -21,7 +21,8 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: var(--color-LightBlue-3);
 }
 
@@ -381,7 +382,7 @@ header {
     width: 50%;
 }
 
-.wrapper-showcase-right-btn-top {
+.wrapper-showcase-right-batge-top {
     width: 180px;
     color: var(--color-White);
     font-weight: 600;
@@ -424,19 +425,19 @@ header {
     font-size: 22px;
 }
 
-.wrapper-showcase-right-btn-bottom {
+.wrapper-showcase-right-batge-bottom {
     width: 150px;
     color: var(--color-White);
     font-weight: 600;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
+    cursor: pointer;
     background-color: var(--color-Purple);
 }
 
 .wrapper-showcase-right-bottom {
     display: flex;
     gap: 2rem;
-    /* justify-content: space-between; */
 }
 
 .wrapper-showcase-right-bottom-avatar {
@@ -458,6 +459,252 @@ header {
 }
 
 /* End Showcase */
+
+/* Payment */
+.payment {
+    background-color: var(--color-LightBlue-1);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.wrapper-payment {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-payment-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.wrapper-payment-left-batge {
+    background-color: var(--color-Turquoise);
+    width: 180px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 33px;
+    padding: 12px 20px 12px 20px;
+}
+
+.wrapper-payment-left h4 {
+    color: var(--color-White);
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.wrapper-payment-left p {
+    color: var(--color-Gray);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.wrapper-payment-left-logos {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.wrapper-payment-logo {
+    display: flex;
+    gap: 3rem;
+}
+
+.wrapper-payment-right {
+    display: flex;
+    gap: 2rem;
+}
+
+.wrapper-payment-card-left {
+    width: auto;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--color-LightBlue-2);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.wrapper-payment-card-right {
+    width: auto;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--color-LightBlue-2);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.wrapper-payment-card-left h5,
+.wrapper-payment-card-right h5 {
+    color: var(--color-White);
+    font-size: 20px;
+}
+
+.wrapper-payment-card-left h4,
+.wrapper-payment-card-right h4 {
+    color: var(--color-White);
+    font-size: 40px;
+}
+
+.wrapper-payment-card-left span,
+.wrapper-payment-card-right span {
+    color: var(--color-Gray);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.wrapper-payment-card-left p,
+.wrapper-payment-card-right p {
+    color: var(--color-Gray);
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wrapper-payment-card-list-left,
+.wrapper-payment-card-list-right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.wrapper-payment-card-list-left img,
+.wrapper-payment-card-list-right img {
+    width: 30px;
+    height: 30px;
+}
+
+.wrapper-payment-card-list-left p,
+.wrapper-payment-card-list-right p {
+    color: var(--color-White);
+    font-weight: 600;
+}
+
+.wrapper-payment-card-btn-left {
+    background-color: #252741;
+    color: var(--color-White);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+}
+
+.wrapper-payment-card-btn-right {
+    background-color: var(--color-Purple);
+    color: var(--color-White);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+}
+
+/* End Payment */
+
+/* Testimonial */
+.testimonial {
+    background-color: var(--color-LightBlue-3);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.wrapper-testimonial {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+}
+
+.wrapper-testimonials {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper-testimonial-batge {
+    width: 200px;
+    background-color: var(--color-Purple);
+    color: var(--color-White);
+    border-radius: 33px;
+    padding: 15px 20px 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapper-testimonials h3 {
+    color: var(--color-White);
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 3rem;
+}
+
+.wrapper-testimonial-cards {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.wrapper-testimonial-card {
+    width: 330px;
+    border-radius: 15px;
+    padding: 20px 40px 20px 30px;
+    background-color: var(--color-LightBlue-2);
+}
+
+.wrapper-testimonial-card img {
+    margin-bottom: 3rem;
+}
+
+.wrapper-testimonial-card h5 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color: var(--color-White);
+}
+
+.wrapper-testimonial-card h3 {
+    color: var(--color-White);
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.wrapper-testimonial-card p {
+    color: var(--color-Gray);
+}
+
+/* End Testimonial */
+
+/* Footer */
+.footer {
+    padding-top: 2rem;
+}
+
+.wrapper-footer {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-LightBlue-2);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.wrapper-footer p {
+    color: var(--color-Gray);
+    font-size: 20px;
+}
+
+/* End Footer */
 
 /* Responsive Tablet */
 @media screen and (max-width:992px) {
@@ -563,8 +810,9 @@ header {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .wrapper-brands-title h4,
-    .wrapper-brands-title span{
+    .wrapper-brands-title span {
         font-size: 16px;
     }
 
@@ -598,48 +846,103 @@ header {
         padding-right: 10px;
         gap: 2rem;
     }
+
     .wrapper-showcase-left,
     .wrapper-showcase-right {
         width: 50%;
     }
+
     .wrapper-showcase-right-judul {
         font-size: 36px;
     }
+
     .wrapper-showcase-right-title {
         font-size: 16px;
     }
+
     .wrapper-showcase-right-card {
         gap: 1rem;
     }
+
     .wrapper-showcase-right-card-list p {
         font-size: 16px;
     }
-    .wrapper-showcase-left-video{
+
+    .wrapper-showcase-left-video {
         display: flex;
         gap: 0.5rem;
     }
+
     .wrapper-showcase-left-video .frame-two {
         width: 120px;
         height: 100px;
         border-radius: 15px;
         box-shadow: 0 0 20px rgba(0, 38, 255, 0.3), 0 0 10px rgba(0, 80, 253, 0.2);
     }
-    .wrapper-showcase-right-bottom{
+
+    .wrapper-showcase-right-bottom {
         gap: 1.5rem;
     }
+
     .wrapper-showcase-right-btn-bottom {
         width: 140px;
         color: var(--color-White);
         font-size: 12px;
         padding: 10px 20px 10px 20px;
     }
-    .wrapper-showcase-right-bottom-avatar h4{
+
+    .wrapper-showcase-right-bottom-avatar h4 {
         margin-left: 10px;
     }
-    .wrapper-showcase-right-bottom-avatar h4,span {
+
+    .wrapper-showcase-right-bottom-avatar h4, span {
         font-size: 10px;
     }
+
     /* End Showcase */
+
+    /* Payment */
+    .wrapper-payment {
+        width: 100%;
+        max-width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    /* .wrapper-payment-left{} */
+    .wrapper-payment-left h4 {
+        font-size: 28px;
+    }
+
+    .wrapper-payment-left p {
+        font-size: 16px;
+    }
+
+    /* End Payment */
+
+    /* Testimonial */
+    .wrapper-testimonial{
+        width: 100%;
+        max-width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .wrapper-testimonial-cards{
+        gap: 1rem;
+    }
+    /* End Testimonial */
+
+    /* Footer */
+    .wrapper-footer{
+        width: 100%;
+        max-width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
+    /* End Footer */
 }
 
 /* Responsive navbar Android */
@@ -744,10 +1047,12 @@ header {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .wrapper-brands-title h4,
-    .wrapper-brands-title span{
+    .wrapper-brands-title span {
         font-size: 16px;
     }
+
     .wrapper-brands-logo {
         gap: 1rem;
         flex-wrap: wrap;
@@ -766,6 +1071,7 @@ header {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .wrapper-features-cards-top,
     .wrapper-features-cards-bottom {
         grid-template-columns: repeat(1, 1fr);
@@ -786,17 +1092,75 @@ header {
     .wrapper-showcase-right {
         width: 100%;
     }
-    .wrapper-showcase-left-video{
+
+    .wrapper-showcase-left-video {
         flex-direction: column;
         gap: 1rem;
     }
-    .wrapper-showcase-left-video .frame-two{
+
+    .wrapper-showcase-left-video .frame-two {
         width: 100%;
         height: 400px;
     }
+
     .wrapper-showcase-right-card-list p {
         font-size: 15px;
     }
 
     /* End Showcase */
+
+    /* Payment */
+    .wrapper-payment {
+        width: 100%;
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .wrapper-payment-right {
+        flex-direction: column;
+    }
+
+    .wrapper-testimonial {
+        width: 100%;
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wrapper-testimonials h3 {
+        font-size: 30px;
+    }
+
+    .wrapper-testimonial-cards {
+        flex-direction: column;
+    }
+
+    .wrapper-testimonial-card {
+        width: 100%;
+    }
+
+    /* End Payment */
+
+    /* Footer */
+    .wrapper-footer {
+        width: 100%;
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .wrapper-footer img{
+        width: 150px;
+    }
+    .wrapper-footer p{
+        font-size: 15px;
+    }
+    /* End Footer */
 }
